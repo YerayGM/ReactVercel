@@ -18,15 +18,15 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 2)}>
+          La cuenta es(se suma de 2 en 2) {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Haz click en los logos para que te manden a sus respectivas paginas para saber mas, ademas esto esta hehco por Yeray 2ºDAW en Fedora 41.
       </p>
     </>
   )
